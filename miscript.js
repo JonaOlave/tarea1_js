@@ -1,0 +1,1 @@
+/* Este es el script de javascript y jquery */
