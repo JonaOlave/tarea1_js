@@ -1,0 +1,64 @@
+#general
+	{
+		width: 420px;
+		height: 420px;
+		margin: auto;
+	}
+.hea-fot
+	{
+		width: 420px;
+		height: 70px;
+		float: left;
+	}
+.costado
+	{
+		width: 70px;
+		height: 280px;
+		float: left;
+	}
+.centro
+	{
+		width: 280px;
+		height: 280px;
+		float: left;
+		background-image: "";
+	}
+.c-centro
+	{
+		width: 240px;
+		margin: 30px 20px 30px 20px;
+		height: 80px;
+		float: left;
+	}
+.boton
+	{
+		width: 80px;
+		height: 80px;
+		float: left;
+	}
+.circu
+	{
+		width: 40px;
+		margin: 20px;
+		height: 40px;
+		float: left;
+		border-radius: 20px;
+	}
+.cl_azul,.cl_rojo,.cl_verde
+	{
+		width: 70px;
+		height: 70px;
+		float: left;
+	}
+.cl_azul
+	{
+		background-color: blue;
+	}
+.cl_rojo
+	{
+		background-color: red;
+	}
+.cl_verde
+	{
+		background-color: green;
+	}

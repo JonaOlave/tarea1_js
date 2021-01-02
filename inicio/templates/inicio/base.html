@@ -3,74 +3,9 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Documento sin título</title>
-<style>
-#general
-	{
-		width: 420px;
-		height: 420px;
-		margin: auto;
-	}
-.hea-fot
-	{
-		width: 420px;
-		height: 70px;
-		float: left;
-	}
-.costado
-	{
-		width: 70px;
-		height: 280px;
-		float: left;
-	}
-.centro
-	{
-		width: 280px;
-		height: 280px;
-		float: left;
-		background-image: "";
-	}
-.c-centro
-	{
-		width: 240px;
-		margin: 30px 20px 30px 20px;
-		height: 80px;
-		float: left;
-	}
-.boton
-	{
-		width: 80px;
-		height: 80px;
-		float: left;
-	}
-.circu
-	{
-		width: 40px;
-		margin: 20px;
-		height: 40px;
-		float: left;
-		border-radius: 20px;
-	}
-.cl_azul,.cl_rojo,.cl_verde
-	{
-		width: 70px;
-		height: 70px;
-		float: left;
-	}
-.cl_azul
-	{
-		background-color: blue;
-	}
-.cl_rojo
-	{
-		background-color: red;
-	}
-.cl_verde
-	{
-		background-color: green;
-	}
-</style>	
-	
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="{% static 'inicio/css/style.css' %}">
+<title>Documento sin título</title>	
 </head>
 
 <body>
@@ -96,9 +31,9 @@
 			<span class="boton"><input id="bot3" type="button" value="boton3"></span>
 		</div>
 		<div class="c-centro">
-			<span id="cirrojo" style="background-color: red" class="circu"></span>
-			<span id="cirverde" style="background-color: green" class="circu"></span>
-			<span id="cirazul" style="background-color: blue" class="circu"></span>
+			<span id="cir_rojo" style="background-color: red" class="circu"></span>
+			<span id="cir_verde" style="background-color: green" class="circu"></span>
+			<span id="cir_azul" style="background-color: blue" class="circu"></span>
 		</div>
 	</div>
 	<div class="costado">
